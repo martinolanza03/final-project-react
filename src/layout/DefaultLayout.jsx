@@ -17,7 +17,6 @@ export default function DefaultLayout() {
         videoGamesPageRef.current.scrollIntoView({
             behavior: 'smooth',
             block: 'start',
-            inline: 'nearest',
         });
     };
 
@@ -26,7 +25,6 @@ export default function DefaultLayout() {
         consolePageRef.current.scrollIntoView({
             behavior: 'smooth',
             block: 'start',
-            inline: 'nearest',
         });
     };
 
@@ -36,7 +34,6 @@ export default function DefaultLayout() {
         mainPageRef.current.scrollIntoView({
             behavior: 'smooth',
             block: 'start',
-            inline: 'nearest',
         });
     };
 
